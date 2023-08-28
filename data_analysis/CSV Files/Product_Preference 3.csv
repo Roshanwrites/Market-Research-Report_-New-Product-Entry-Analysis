@@ -1,0 +1,11 @@
+Participant_ID,Gender,Age,Natural_Ingredients_Preference,Willingness_To_Pay,Product_Preference
+1,Male,28,1,1,Protein Supplements
+2,Female,35,0,0,Vitamins
+3,Male,42,1,1,Herbal Remedies
+4,Female,29,1,1,Protein Supplements
+5,Male,38,0,0,Protein Supplements
+6,Female,24,1,0,Vitamins
+7,Male,31,0,1,Herbal Remedies
+8,Female,45,1,1,Vitamins
+9,Male,27,0,0,Protein Supplements
+10,Female,33,1,1,Herbal Remedies

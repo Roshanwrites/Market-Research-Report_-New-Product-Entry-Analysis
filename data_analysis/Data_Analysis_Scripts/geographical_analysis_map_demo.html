@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1e3824baad1294983669526723b9d99c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1e3824baad1294983669526723b9d99c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1e3824baad1294983669526723b9d99c = L.map(
+                "map_1e3824baad1294983669526723b9d99c",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8eeeb13e034a81b7604862f33b5dc7c5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1e3824baad1294983669526723b9d99c);
+        
+    
+            var marker_072171f04132f8be342be4179812c883 = L.marker(
+                [20.5937, 78.9629],
+                {}
+            ).addTo(map_1e3824baad1294983669526723b9d99c);
+        
+    
+        var popup_489f3c3a91842446384a04b22a1eebce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f40f06207d7a09edc1e8218de7eaa8af = $(`<div id="html_f40f06207d7a09edc1e8218de7eaa8af" style="width: 100.0%; height: 100.0%;">India</div>`)[0];
+                popup_489f3c3a91842446384a04b22a1eebce.setContent(html_f40f06207d7a09edc1e8218de7eaa8af);
+            
+        
+
+        marker_072171f04132f8be342be4179812c883.bindPopup(popup_489f3c3a91842446384a04b22a1eebce)
+        ;
+
+        
+    
+    
+            var marker_163009e221d39baec378ef3ae4ba9433 = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(map_1e3824baad1294983669526723b9d99c);
+        
+    
+        var popup_079c47877cc2f28d731d404f9562b650 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f36676c0973433241613f159a18a59c = $(`<div id="html_0f36676c0973433241613f159a18a59c" style="width: 100.0%; height: 100.0%;">New Delhi</div>`)[0];
+                popup_079c47877cc2f28d731d404f9562b650.setContent(html_0f36676c0973433241613f159a18a59c);
+            
+        
+
+        marker_163009e221d39baec378ef3ae4ba9433.bindPopup(popup_079c47877cc2f28d731d404f9562b650)
+        ;
+
+        
+    
+    
+            var marker_e61247f4bfd9942104a5cfb9b7a112f5 = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(map_1e3824baad1294983669526723b9d99c);
+        
+    
+        var popup_5d034af4a1dc1c5be3103f9720c72bff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16fabfe4fdbafaf958245906cf609937 = $(`<div id="html_16fabfe4fdbafaf958245906cf609937" style="width: 100.0%; height: 100.0%;">Mumbai</div>`)[0];
+                popup_5d034af4a1dc1c5be3103f9720c72bff.setContent(html_16fabfe4fdbafaf958245906cf609937);
+            
+        
+
+        marker_e61247f4bfd9942104a5cfb9b7a112f5.bindPopup(popup_5d034af4a1dc1c5be3103f9720c72bff)
+        ;
+
+        
+    
+    
+            var feature_group_affc9ce80bc541da0c0075fd20ffa5cb = L.featureGroup(
+                {}
+            ).addTo(map_1e3824baad1294983669526723b9d99c);
+        
+    
+            var marker_5a21516092ad394ee07b08765c894009 = L.marker(
+                [28.6139, 77.209],
+                {}
+            ).addTo(feature_group_affc9ce80bc541da0c0075fd20ffa5cb);
+        
+    
+        var popup_cc22f412b175e8bf5919fcb7539b5ef0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afa95d8718b9934e54f787b9ae885faf = $(`<div id="html_afa95d8718b9934e54f787b9ae885faf" style="width: 100.0%; height: 100.0%;">Sales Data in New Delhi: $500,000</div>`)[0];
+                popup_cc22f412b175e8bf5919fcb7539b5ef0.setContent(html_afa95d8718b9934e54f787b9ae885faf);
+            
+        
+
+        marker_5a21516092ad394ee07b08765c894009.bindPopup(popup_cc22f412b175e8bf5919fcb7539b5ef0)
+        ;
+
+        
+    
+    
+            var marker_8469d0350f888c5ffec86fecc984022a = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(feature_group_affc9ce80bc541da0c0075fd20ffa5cb);
+        
+    
+        var popup_82d3d90272731c77182c32c6a65ae3f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f7bf0edad4f363cfaaedf2f686aa5b9 = $(`<div id="html_5f7bf0edad4f363cfaaedf2f686aa5b9" style="width: 100.0%; height: 100.0%;">Sales Data in Mumbai: $700,000</div>`)[0];
+                popup_82d3d90272731c77182c32c6a65ae3f3.setContent(html_5f7bf0edad4f363cfaaedf2f686aa5b9);
+            
+        
+
+        marker_8469d0350f888c5ffec86fecc984022a.bindPopup(popup_82d3d90272731c77182c32c6a65ae3f3)
+        ;
+
+        
+    
+    
+            var feature_group_bc4393752195d7a94164148cc4866046 = L.featureGroup(
+                {}
+            ).addTo(map_1e3824baad1294983669526723b9d99c);
+        
+    
+            var circle_marker_c92554231c1b068e40a647aee92e7aff = L.circleMarker(
+                [28.6139, 77.209],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bc4393752195d7a94164148cc4866046);
+        
+    
+        var popup_5a6433d9f7505611fd28916a4395cd83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a7da2bf6e1e46ed2cd77c41ea9c39bd = $(`<div id="html_8a7da2bf6e1e46ed2cd77c41ea9c39bd" style="width: 100.0%; height: 100.0%;">Population Density in New Delhi: 11,320/sq km</div>`)[0];
+                popup_5a6433d9f7505611fd28916a4395cd83.setContent(html_8a7da2bf6e1e46ed2cd77c41ea9c39bd);
+            
+        
+
+        circle_marker_c92554231c1b068e40a647aee92e7aff.bindPopup(popup_5a6433d9f7505611fd28916a4395cd83)
+        ;
+
+        
+    
+    
+            var circle_marker_ae7dc157fb3b2a6aea63c51ded7819e5 = L.circleMarker(
+                [19.076, 72.8777],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_bc4393752195d7a94164148cc4866046);
+        
+    
+        var popup_3d6a847dd2012b466fdbb6b3894f6dd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79d0d19f01276cee40dcb07635236122 = $(`<div id="html_79d0d19f01276cee40dcb07635236122" style="width: 100.0%; height: 100.0%;">Population Density in Mumbai: 20,634/sq km</div>`)[0];
+                popup_3d6a847dd2012b466fdbb6b3894f6dd6.setContent(html_79d0d19f01276cee40dcb07635236122);
+            
+        
+
+        circle_marker_ae7dc157fb3b2a6aea63c51ded7819e5.bindPopup(popup_3d6a847dd2012b466fdbb6b3894f6dd6)
+        ;
+
+        
+    
+    
+            var layer_control_5c26db6dccd61527008caaa88b3e9213 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8eeeb13e034a81b7604862f33b5dc7c5,
+                },
+                overlays :  {
+                    "Sales" : feature_group_affc9ce80bc541da0c0075fd20ffa5cb,
+                    "Demographics" : feature_group_bc4393752195d7a94164148cc4866046,
+                },
+            };
+            L.control.layers(
+                layer_control_5c26db6dccd61527008caaa88b3e9213.base_layers,
+                layer_control_5c26db6dccd61527008caaa88b3e9213.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_1e3824baad1294983669526723b9d99c);
+        
+</script>
+</html>

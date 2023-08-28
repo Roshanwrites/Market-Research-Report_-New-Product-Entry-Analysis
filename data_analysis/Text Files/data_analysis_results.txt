@@ -1,0 +1,12 @@
+Descriptive Statistics:
+       Participant_ID        Age  Natural_Ingredients_Preference  Willingness_To_Pay
+count        10.00000  10.000000                       10.000000           10.000000
+mean          5.50000  33.500000                        0.700000            0.700000
+std           3.02765   7.472171                        0.483046            0.483046
+min           1.00000  22.000000                        0.000000            0.000000
+25%           3.25000  28.250000                        0.250000            0.250000
+50%           5.50000  33.000000                        1.000000            1.000000
+75%           7.75000  38.750000                        1.000000            1.000000
+max          10.00000  45.000000                        1.000000            1.000000
+Percentage of respondents preferring natural ingredients: 70.00%
+Percentage of respondents willing to pay for personalized solutions: 70.00%
